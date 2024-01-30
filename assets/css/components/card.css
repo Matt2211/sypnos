@@ -1,0 +1,7 @@
+.card {
+  @apply bg-orange-950 p-4 text-white;
+
+  &:hover {
+    @apply bg-yellow-300;
+  }
+}
