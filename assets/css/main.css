@@ -5,3 +5,33 @@
 
 @import 'tailwindcss/utilities';
 
+@layer base {
+  .bg-test {
+    background: hsla(332, 53%, 82%, 1);
+
+    background: linear-gradient(
+      90deg,
+      hsla(332, 53%, 82%, 1) 0%,
+      hsla(176, 57%, 89%, 1) 100%
+    );
+
+    background: -moz-linear-gradient(
+      90deg,
+      hsla(332, 53%, 82%, 1) 0%,
+      hsla(176, 57%, 89%, 1) 100%
+    );
+
+    background: -webkit-linear-gradient(
+      90deg,
+      hsla(332, 53%, 82%, 1) 0%,
+      hsla(176, 57%, 89%, 1) 100%
+    );
+  }
+
+  h1 {
+    @apply text-6xl font-bold;
+  }
+  h2 {
+    @apply text-4xl font-bold;
+  }
+}
