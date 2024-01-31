@@ -1,10 +1,10 @@
 <template>
   <div
-    class="container flex items-center justify-between m-auto"
+    class="container flex items-center justify-between m-auto h-14"
   >
     <img
       src="~/assets/img/sypnos-logo-black.svg"
-      width="120"
+      width="100"
       alt="Sypnos logo"
     />
 
