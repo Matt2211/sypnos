@@ -3,7 +3,7 @@
     <div class="bg-hero-sky w-1/2 bg-cover"></div>
 
     <div class="flex w-1/2 items-center justify-center">
-      <div class="flex flex-col gap-y-14">
+      <div class="flex flex-col gap-y-14 w-6/12">
         <div class="flex flex-col">
           <h2>Welcome back!</h2>
           <p>Believe in your dreams...</p>
@@ -19,16 +19,22 @@
               <label for="" class="text-sm"> Remember me</label>
             </div>
 
-            <p class="text-sm font-semibold">Forgot password</p>
+            <p class="text-sm font-semibold hover:text-[#9886BC] cursor-pointer">Forgot password</p>
           </div>
 
-          <button class="h-10 rounded-lg bg-slate-950 font-medium text-white">
+          <button class="h-10 rounded-lg bg-slate-950 font-medium text-white hover:bg-[#9886BC]">
             Sign in
           </button>
-          <button class="h-10 rounded-lg border-2 font-medium border-slate-950">
+          <button class="h-10 rounded-lg border-2 border-slate-950 font-medium">
             Sign in with Google
           </button>
         </div>
+
+        <div class="flex items-center justify-center gap-x-2">
+          <p class="text-sm">Don't have an account?</p>
+          <p class="text-sm font-semibold hover:text-[#9886BC] cursor-pointer">Sign up</p>
+        </div>
+
       </div>
     </div>
   </div>
