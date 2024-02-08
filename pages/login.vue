@@ -3,7 +3,7 @@
     <div class="bg-hero-sky-login w-1/2 bg-cover"></div>
 
     <div class="flex w-1/2 items-center justify-center">
-      <div class="flex w-6/12 flex-col gap-y-14">
+      <div class="flex w-4/12 flex-col gap-y-14">
         <div class="flex flex-col text-center gap-y-2">
           <h2>Welcome back!</h2>
           <p>Believe in your dreams...</p>
