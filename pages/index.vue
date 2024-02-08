@@ -1,11 +1,5 @@
 <template>
   <main>
-    <h1>hello</h1>
-    <CardTest />
-    <InputsFormInput placeholder="Name" />
-    <InputsFormInput type="email" placeholder="Email" />
-    <InputsFormInput type="password" placeholder="Password" />
-
     <section class="bg-test h-screen">
       <div
         class="container m-auto flex h-full columns-3 justify-center gap-y-4 px-4 align-middle"

@@ -1,12 +1,12 @@
 <template>
-  <div
-    class="container flex items-center justify-between m-auto h-14"
-  >
+  <div class="container m-auto flex h-14 items-center justify-between">
+    <Nuxt-link to="/">
     <img
       src="~/assets/img/sypnos-logo-black.svg"
       width="100"
       alt="Sypnos logo"
     />
+    </Nuxt-link>
 
     <nav>
       <ul class="flex list-none gap-x-5 align-middle text-gray-600">
@@ -20,8 +20,8 @@
       <ul
         class="flex list-none gap-x-5 align-middle font-semibold text-gray-800"
       >
-        <li>Create account</li>
-        <li>Sign in</li>
+        <Nuxt-link to="/login"><li>Log in</li></Nuxt-link>
+        <Nuxt-link to="/register"><li>Create account</li></Nuxt-link>
       </ul>
     </nav>
   </div>

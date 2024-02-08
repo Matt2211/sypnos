@@ -25,7 +25,8 @@ module.exports = {
     extend: {
       colors: {},
       backgroundImage: {
-        'hero-sky': "url('~/assets/img/wip/sky-001.jpg')",
+        'hero-sky-login': "url('~/assets/img/wip/sky-001.jpg')",
+        'hero-sky-register': "url('~/assets/img/wip/sky-002.jpg')",
       }
     },
   },
