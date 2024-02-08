@@ -1,7 +1,10 @@
 <template>
   <input
+    :id="id"
     :type="type"
-    class="h-10 rounded-lg border border-slate-400 px-2 placeholder-slate-400"
+    :name="name"
+    :value="value"
+    class="h-10 rounded-lg border-2 border-slate-400 px-2 placeholder-slate-400 outline-none focus:border-[#9886BC]"
     :placeholder="placeholder"
   />
 </template>

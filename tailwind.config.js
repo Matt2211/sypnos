@@ -24,6 +24,9 @@ module.exports = {
     },
     extend: {
       colors: {},
+      backgroundImage: {
+        'hero-sky': "url('~/assets/img/wip/sky-001.jpg')",
+      }
     },
   },
   plugins: [],

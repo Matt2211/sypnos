@@ -8,18 +8,9 @@
 
     <section class="bg-test h-screen">
       <div
-        class="container m-auto flex h-full columns-2 justify-center gap-y-4 px-4 align-middle"
+        class="container m-auto flex h-full columns-3 justify-center gap-y-4 px-4 align-middle"
       >
-        <div class="flex flex-col justify-center gap-y-6 px-4 align-middle">
-          <h1>Global Generosity Ignited: Uniquely Share Dreams Here!</h1>
-          <p class="text-2xl">
-            Welcome to Sypnos, where dreams unite and generosity knows no
-            boundaries. Join our global community, making dreams real through
-            random acts of kindness. Together, we're rewriting the story of
-            dreams—yours and theirs. Explore, connect, and inspire on Sypnos!
-          </p>
-        </div>
-        <div class="flex flex-col justify-center gap-y-6 px-4 align-middle">
+        <div class="flex flex-col justify-center gap-y-6  w-8/12 align-middle">
           <h1>A unique dream-sharing platform igniting global generosity</h1>
           <p class="text-2xl">
             Welcome to Sypnos, a website where individuals from around the world
@@ -32,7 +23,7 @@
 
     <section class="min-h-min bg-gray-950 py-80">
       <div
-        class="container m-auto flex w-10/12 justify-center gap-y-4 px-4 align-middle"
+        class="container m-auto flex w-8/12 justify-center gap-y-4 px-4 align-middle"
       >
         <div class="flex flex-col justify-center gap-y-6 px-4 align-middle">
           <h2 class="text-white">
