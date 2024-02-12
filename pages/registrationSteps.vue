@@ -59,6 +59,7 @@ t
 
 <script>
 export default {
+  layout: 'registration',
   data() {
     return {
       isDreamer: false,

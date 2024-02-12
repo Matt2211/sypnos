@@ -4,7 +4,7 @@
 
     <div class="flex w-1/2 items-center justify-center">
       <div class="flex w-4/12 flex-col gap-y-14">
-        <div class="flex flex-col text-center gap-y-2">
+        <div class="flex flex-col gap-y-2 text-center">
           <h2>Welcome back!</h2>
           <p>Believe in your dreams...</p>
         </div>
@@ -57,14 +57,7 @@
 </template>
 
 <script>
-export default {}
+export default {
+  layout: 'registration',
+}
 </script>
-
-<!--  <div class="h-full bg-red-500">hello</div>
-    <div class="h-full">
-      <div class="flex  w-3/12 flex-col gap-y-3 bg-green-400">
-        <InputsFormInput placeholder="Name" />
-        <InputsFormInput type="email" placeholder="Email" />
-        <InputsFormInput type="password" placeholder="Password" />
-      </div>
-    </div> -->

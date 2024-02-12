@@ -11,12 +11,10 @@ t
         </div>
 
         <button
-            class="h-10 rounded-lg bg-slate-950 font-medium text-white hover:bg-[#9886BC]"
-          >
-            Next
-          </button>
-
-        
+          class="h-10 rounded-lg bg-slate-950 font-medium text-white hover:bg-[#9886BC]"
+        >
+          Next
+        </button>
       </div>
     </div>
   </div>
@@ -24,6 +22,7 @@ t
 
 <script>
 export default {
+  layout: 'registration',
   data() {
     return {
       isDreamer: false,
